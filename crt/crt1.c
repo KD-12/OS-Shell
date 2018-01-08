@@ -1,5 +1,9 @@
-#include <stdlib.h>
+#include<stdlib.h>
+//#include<system.h>
 
+int myExit(int n);
 void _start(void) {
-  // call main() and exit() here
+  int res = main(0,NULL,NULL);
+  
+  myExit(res); // call main() and exit() here
 }
